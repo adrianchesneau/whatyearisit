@@ -4,5 +4,3 @@ fetch('https://whatyearisit-backend-one-omega.vercel.app/date')
         document.querySelector('#year').textContent = date.year
 
     })
-
-document.querySelector('#bite').textContent = 'Bite'
