@@ -1,4 +1,4 @@
-fetch('http://localhost:3000/date')
+fetch('https://whatyearisit-backend-one-omega.vercel.app/year')
     .then(response => response.json())
     .then(date => {
         document.querySelector('#year').textContent = date.year
